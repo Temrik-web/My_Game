@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BROKEN GRID</title>
+    <meta
+      name="description"
+      content="Страница игры; Pages: трейлер, особенности, лор и кнопка запуска."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <a class="brand" href="#top">BROKEN GRID</a>
+          <div class="topbar-links">
+            <a href="#about">Об игре</a>
+            <a href="#features">Фичи</a>
+            <a href="#download">Играть</a>
+          </div>
+        </nav>
+
+        <section class="hero-content" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">indie horror exploration</p>
+            <h1>Откопай сигнал под пиксельной тишиной</h1>
+            <p class="lead">
+              Неоново-мрачная страница игры: крупный арт, акцент на
+              атмосфере, короткий питч и понятный CTA.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href=https://drive.google.com/file/d/1cCQJC-DwzniLX0zbz59uKaA6DCs9H0Q5/view?usp=drive_link>Скачать билд</a>
+              <a class="button secondary" href="#about">Смотреть детали</a>
+            </div>
+            <ul class="stats">
+              <li><span>жанр</span> survival adventure</li>
+              <li><span>статус</span> demo available</li>
+              <li><span>платформа</span> Windows </li>
+            </ul>
+          </div>
+
+          <aside class="purchase-card">
+            <div class="cover-frame">
+              <img src="./bg.jpg" alt="Постер игры BROKEN GRID" />
+            </div>
+            <div class="purchase-meta">
+              <p class="price">name your price</p>
+              <p class="meta-note">Первая демо-глава с атмосферой старого хаба и подземного сигнала.</p>
+              <a class="button primary wide" href="#download">Download Now</a>
+              <div class="tags">
+                <span>Pixel</span>
+                <span>Horror</span>
+                <span>Exploration</span>
+                <span>Singleplayer</span>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <main class="content">
+        <section class="panel story-panel" id="about">
+          <div class="panel-copy">
+            <p class="section-label">ОБ ИГРЕ</p>
+            <h2>Один фон, один сигнал, одно очень плохое решение</h2>
+            <p>
+              Архивная станция молчит уже девять лет. Игрок спускается под землю,
+              чтобы включить резервный передатчик, но обнаруживает, что карта
+              комплекса переписывается сама.
+            </p>
+            <p>
+              Компактный промо-сайт для GitHub Pages:
+              без сборщика, только статические файлы, которые можно сразу залить в репозиторий.
+            </p>
+          </div>
+          <div class="story-quote">
+            <p>
+              “When the lights return, the corridors are never the same twice.”
+            </p>
+          </div>
+        </section>
+
+        <section class="feature-grid" id="features">
+          <article class="panel feature">
+            <p class="section-label">01</p>
+            <h3>Itch.io стиль</h3>
+            <p>Большой header-арт, карточка скачивания, теги, системный блок и devlog-подача.</p>
+          </article>
+          <article class="panel feature">
+            <p class="section-label">02</p>
+            <h3>Готово для Pages</h3>
+            <p>Чистый HTML/CSS/JS без зависимостей и сложной настройки деплоя.</p>
+          </article>
+          <article class="panel feature">
+            <p class="section-label">03</p>
+            <h3>Атмосфера из чего-то</h3>
+            <p><code>bg.jpg</code> используется как ключевой визуал, фон секций и превью.</p>
+          </article>
+        </section>
+
+        <section class="media-layout">
+          <div class="panel media-card">
+            <p class="section-label">SCREEN</p>
+            <img src="./bg.jpg" alt="Скриншот игрового окружения" />
+          </div>
+          <div class="panel details-card">
+            <p class="section-label">DETAILS</p>
+            <h3>Что есть на странице</h3>
+            <ul class="detail-list">
+              <li>крупный первый экран с постером и кнопкой скачивания</li>
+              <li>информационные блоки в карточках</li>
+              <li>адаптивная мобильная верстка</li>
+              <li>плавное появление секций при скролле</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel download-panel" id="download">
+          <div>
+            <p class="section-label">DOWNLOAD</p>
+            <h2>Сделай это репозиторием GitHub Pages</h2>
+            <p>
+              Тимур, загрузи эти файлы в корень репозитория и включи GitHub Pages для ветки
+              <code>main</code>. Сайт сразу должен начать работать (вроде).
+            </p>
+          </div>
+          <div class="download-actions">
+            <a class="button primary" href="#">Download .zip</a>
+            <!-- <a class="button secondary" href="#">Run Web Demo</a> -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
